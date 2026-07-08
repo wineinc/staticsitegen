@@ -6,3 +6,5 @@ BIN=/usr/bin
 REPO_NAME=staticsitegen
 $BIN/python3 $SRC/main.py "/$REPO_NAME/"
 
+
+cd docs && python3 -m http.server 8888
